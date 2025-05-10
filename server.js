@@ -22,7 +22,7 @@ app.get('/filme', async (req, res) => {
         const filme = resposta.data
 
         if (filme.Response === "False") {
-            return res.status(404).json({error: "Filme ão encontrado"})
+            return res.status(404).json({error: "Filme não encontrado"})
         }
         res.json ({
             titulo: filme.Title,
