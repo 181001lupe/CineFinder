@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador de filmes</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🎬 CineFinder</h1>
+        <p>Está procurando alguma informação específica de algum filme? aqui é o lugar certo, basta escrever o nome do filme e com apenas um clique você tem todas as informações sobre ele!</p>
+    </header>
+    <main>
+        <section>
+            <h1>🔍 Buscar filme</h1>
+            <form action="">
+                <input type="text" id="titulo" placeholder="Digite aqui o nome do filme">
+                <button id="buscar" type="submit">Buscar</button>
+            </form>
+        </section>
+        <div id="resultado"></div>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>
