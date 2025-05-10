@@ -1,0 +1,36 @@
+# Dependências
+node_modules/
+npm-debug.log
+
+# Variáveis de ambiente
+.env
+.env.local
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# IDE/Editores
+.idea/
+.vscode/
+*.swp
+
+# Logs
+*.log
+logs/
+
+# Caches
+.cache/
+.temp/
+
+# Arquivos de build
+dist/
+# Arquivos de configuração sensíveis
+config.json
+
+# Chaves de API
+*.key
+*.pem
+
+# Pasta pública gerada (se houver)
+public/js/build/
